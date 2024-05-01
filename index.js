@@ -18,7 +18,7 @@ app.listen(PORT, () => {
 })
 // Obtendo os parametros passados pela linha de comando
 var userArgs = process.argv.slice(2);
-var mongoURL = "mongodb+srv://breno215960:senha123@tarefasdb.bkjbssw.mongodb.net/tarefasDB?retryWrites=true&w=majority";
+var mongoURL = "mongodb+srv://Patrick225469:Bruder240804@cluster0.tkyohoa.mongodb.net/TarefasDB?retryWrites=true&w=majority&appName=Cluster0";
 
 //Configurando a conexao com o Banco de Dados s
 var mongoose = require('mongoose');
